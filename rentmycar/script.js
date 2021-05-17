@@ -1,5 +1,14 @@
 //$('.input-group.date').datepicker({format: "dd.mm.yyyy"}); 
 
+$('.burger-menu').click(function(){
+    $('.two').toggleClass("alt");
+})
+
+$('.bma').click(function(){
+    $('.two').toggleClass("alt");
+})
+
+
 let totalResult = $('#totalresult');
 let totalcar = $('.car-result');
 totalResult.text(totalcar.length)

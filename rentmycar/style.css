@@ -1,11 +1,53 @@
-/* .header-carousel {
-    margin-bottom: 250px;
-    font-size: 13px;
-} */
+/* Bon courage car je n'ai fait que tomber dans une chute d'emmelement sans fin... */
+/* Et j'ai perdu énormément de teps en voulant faire les calendriers... */
 
-/* .carousel-caption { width:200px; z-index:10; color:#fff; text-align:center; top:50%; left:65%; bottom:auto; -webkit-transform:translate(0, -50%); -ms-transform:translate(0, -50%); transform:translate(0, -50%); } */
+
 .one{
     top: 5%;
+}
+
+.burger{
+    top: -2%;
+    width: 83%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
+
+.burger-menu{
+    border: solid white 1px;
+    padding: 10px;
+    border-radius: 5px;
+    height: 45px;
+}
+
+
+.two{
+    top: 14%;
+    left: 1px;
+    width: 100%;
+    display: none;
+    align-items: flex-start;
+}
+
+.two.alt{
+    top: 14%;
+    left: 1px;
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+}
+
+.burger-list{
+    color: black;
+    background-color: white;
+    width: 100%;
+    display: flex;
+    padding-top: 20px;
+}
+
+.burger-list ul{
+    list-style: none;
 }
 
 .navloc{
