@@ -1,4 +1,5 @@
 //$('.input-group.date').datepicker({format: "dd.mm.yyyy"}); 
+// echec calendar
 
 $('.burger-menu').click(function(){
     $('.two').toggleClass("alt");
