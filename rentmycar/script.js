@@ -77,3 +77,5 @@ $('.car-next').click(function(){
     }
 })
 
+ScrollReveal().reveal('.scrolling', { delay: 500 });
+
