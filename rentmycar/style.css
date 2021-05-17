@@ -8,6 +8,11 @@
     justify-content: center;
 }
 
+.triage{
+    display: flex;
+    justify-content: space-between;
+}
+
 .car-result{
     display: flex;
     justify-content: left;
@@ -65,20 +70,27 @@
     padding-right: 8px;
 }
 
-.bottom-foot{
-    border: solid black 1px;
+.footcentrage{
     display: flex;
     justify-content: center;
-    align-items: center;
 }
 
-#img-footer>img{
-    width: 200px;
-}
-
-#contact-footer{
+#footer{
+    width: 300px;
     display: flex;
-    border: red solid 1px;
+    justify-content: space-between;
+    margin-top: 25px;
+    font-size: 9px;
+}
+
+#footer img{
+    width: 100px;
+    height: 75px;
+}
+
+#footer a{
+    text-decoration: none;
+    color: black;
 }
 
 @media only screen and (max-width: 991px) {

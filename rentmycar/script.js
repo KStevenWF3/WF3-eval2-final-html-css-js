@@ -1,5 +1,9 @@
 //$('.input-group.date').datepicker({format: "dd.mm.yyyy"}); 
 
+let totalResult = $('#totalresult');
+let totalcar = $('.car-result');
+totalResult.text(totalcar.length)
+
 $('.car-previous').click(function(){
     var srcimg = $(this).parent().parent().children(".car-view").children(".car-model").children("img");
     var atrimg = srcimg.attr("src")
@@ -78,4 +82,5 @@ $('.car-next').click(function(){
 })
 
 ScrollReveal().reveal('.scrolling', { delay: 500 });
+// rafraichir totalresult
 
