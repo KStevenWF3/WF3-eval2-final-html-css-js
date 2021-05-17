@@ -1,0 +1,94 @@
+.header-carousel {
+    margin-bottom: 250px;
+    font-size: 13px;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+}
+
+.car-result{
+    display: flex;
+    justify-content: left;
+    padding-bottom: 20px;
+    border-bottom: rgb(238, 237, 237) solid 1px;
+}
+
+.car-view{
+    display: flex;
+}
+
+.car-model{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.car-model>img{
+    width: 240px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.cpn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.car-details{
+    margin-left: 75px;
+    padding-top: 20px;
+    font-size: 9px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.book-pay-div{
+    display: flex;
+    flex: 1;
+    align-items: center;
+}
+
+.book-pay{
+    margin-top: -30px;
+    background-color: rgb(40, 170, 40);
+    color: white;
+    border-radius: 4px;
+    padding-top: 2px;
+    padding-bottom: 3px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.bottom-foot{
+    border: solid black 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#img-footer>img{
+    width: 200px;
+}
+
+#contact-footer{
+    display: flex;
+    border: red solid 1px;
+}
+
+@media only screen and (max-width: 991px) {
+    .car-desc{
+        display : none;
+    }
+    
+    .book-pay-div{
+        display: flex;
+        flex: 1;
+        justify-content: right;
+    }
+}
